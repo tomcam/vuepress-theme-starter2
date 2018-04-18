@@ -14,16 +14,16 @@ $ ls /usr/local/lib/node_modules/vuepress-theme-starter2
 Home.vue	Layout.vue	README.md	LICENSE
 ```
 
-* Go to your working directory and create a Vuepress project. Replace ~/demo1 with whatever
+* Go to your working directory and create a Vuepress project. Replace ~/demo2 with whatever
 you want to name your Vuepress project directory.
 
 ```bash
 # Create full directory path, including the
 # necessary hidden directory .vuepress
-$ mkdir -p ~/demo1/.vuepress
+$ mkdir -p ~/demo2/.vuepress
 
 # Make it the working directory.
-$ cd ~/demo1
+$ cd ~/demo2
 ```
 * Create a README.md file. Here it's nothing but a home page with a single h1 header.
 
@@ -43,7 +43,7 @@ $ vim .vuepress/config.js
 ```
 const base = process.env.GH ? '/vuepress/' : '/'
 module.exports = {
-    title: "Demo1",
+    title: "Demo2",
     description: "Demo of starter2 custom Vuepress theme",
     theme: "starter2"
 }
